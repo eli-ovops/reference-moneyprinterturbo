@@ -1,35 +1,35 @@
-# reference moneyprinterturbo
+# MoneyPrinterTurbo: Reference Workshop
 
-reference moneyprinterturbo 的第三方参考资料与来源索引。
+**Explore a script-to-video project's implementation through a retained reference copy, with upstream attribution and licensing preserved.**
 
-GitHub：[eli-ovops/reference-moneyprinterturbo](https://github.com/eli-ovops/reference-moneyprinterturbo)
+## What you will find
 
-## 内容
+A reference workspace for studying an upstream project. Its original authorship, licenses and notices remain in place; this copy is not presented as a newly authored replacement.
 
-本次公开副本包含 98 个来源文件。
+## Start here
 
-- [`.gitattributes`](.gitattributes)
-- [`.gitignore.source`](.gitignore.source)
-- [`Dockerfile`](Dockerfile)
-- [`LICENSE`](LICENSE)
-- [`ORIGINAL_README.md`](ORIGINAL_README.md)
-- [`README-en.md`](README-en.md)
-- [`README-ja.md`](README-ja.md)
-- [`cli.py`](cli.py)
-- [`config.example.toml`](config.example.toml)
-- [`docker-compose.gpu.yml`](docker-compose.gpu.yml)
+- [Original project guide](ORIGINAL_README.md)
+- [Project guide](test/README.md)
+- [Working note 3](README-en.md)
+- [Complete source inventory](SOURCE_MANIFEST.csv)
 
-文件类型：.py（76）、(no extension)（4）、.md（4）、.json（4）、.yml（3）、.toml（2）、.txt（2）、.html（1）。
+## Current scope
 
-## 阅读方式
+This snapshot includes 98 source files. Original media, databases, private account records and other unprocessed attachments were not included in this text-and-source release.
 
-按主题说明、研究记录和相关程序阅读；保留当时的探索状态与已知缺口。
+This update improves the English presentation. It does not rerun the project, install a skill, reproduce an old test, or establish production readiness. Some original working documents retain their source language; machine-specific paths or setup assumptions may still need adaptation.
 
-## 来源与许可
+## Sources and license
 
-保留原有上游许可证和署名；相关源码按仓库内既有许可使用。新增发布介绍的许可单独列在 LICENSE.publication-notes。
+The original source keeps the license and attribution supplied with the package. See the [retained license](LICENSE) and original notices. New presentation notes, where provided, are licensed separately; they do not relicense upstream work.
 
-来源文件中记录的公开 GitHub 链接（不表示已逐项独立验证）：
+The license for the added presentation notes is retained in [LICENSE.publication-notes](LICENSE.publication-notes).
+
+<details>
+<summary>Reference links retained from the source notes</summary>
+
+These links were present in the project material; they have not all been independently reviewed.
+
 - https://github.com/harry0703/MangoDisk
 - https://github.com/harry0703/MoneyPrinterTurbo
 - https://github.com/harry0703/MoneyPrinterTurbo.git
@@ -47,10 +47,6 @@ GitHub：[eli-ovops/reference-moneyprinterturbo](https://github.com/eli-ovops/re
 - https://github.com/harry0703/mpt-assets/releases/download/assets/09-en-portrait-future-robotics.jpg
 - https://github.com/harry0703/mpt-assets/releases/download/assets/10-en-landscape-ocean-conservation.jpg
 
-## 当前状态与验证边界
+</details>
 
-- 本次完成公开副本整理和静态检查；没有运行来源代码、构建 App、安装 Skill 或启动服务。
-- 项目可能处于原型、实验或研究阶段；没有将其表述为生产交付、客户验收或经过验证的投资收益。
-- 图片、视频、数据库、真实账户记录及未确认可公开的附件没有随本次文本/源码副本上传。
-- 部分相对链接、运行依赖或素材可能仍需补齐；原始快照中的静态引用缺口数为 0，该数字不是运行失败数。
-- [本次来源文件清单](SOURCE_MANIFEST.csv)
+[Source paths and hashes](SOURCE_MANIFEST.csv)
